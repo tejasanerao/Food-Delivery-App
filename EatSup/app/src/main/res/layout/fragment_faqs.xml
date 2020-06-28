@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FAQsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtQ1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Q.1 How will the training be delivered?"
+            android:textColor="@color/Dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtA1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="A.1 You will be taught using pre-recorded videos and text tutorials. The training has quizzes, assignments, and tests to help you learn better. At the end of the training, you will attempt a project to get hands-on practice of what you learn during your training."
+            android:textColor="@color/DarkPink"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/txtQ2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Q.2 What will be the timings of the training?"
+            android:textColor="@color/Dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtA2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="A.2 As this is a purely online training program, you can choose to learn at any time of the day. We will recommend a pace to be followed throughout the program, but the actual timings and learning hours can be decided by students accordingly to their convenience."
+            android:textColor="@color/DarkPink"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtQ3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Q.3 What is the duration of training?"
+            android:textColor="@color/Dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtA3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="A.3 The training duration is of 6 weeks."
+            android:textColor="@color/DarkPink"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/txtQ4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Q.4 How much time should I spend everyday?"
+            android:textColor="@color/Dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtA4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="A.4 We recommend spending 10-12 hrs per week. However, the actual learning hours can be decided by you as per your convenience."
+            android:textColor="@color/DarkPink"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/txtQ5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Q.5 When can I start my training?"
+            android:textColor="@color/Dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtA5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="A.5 You can choose your preferred batch date while signing up for the training program."
+            android:textColor="@color/DarkPink"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/txtQ6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Q.6 When will I get the certificate?"
+            android:textColor="@color/Dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtA6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="A.6 You will be able to download the certificate once you complete your training and take the final test."
+            android:textColor="@color/DarkPink"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</ScrollView>

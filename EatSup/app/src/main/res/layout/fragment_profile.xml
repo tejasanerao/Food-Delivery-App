@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProfileFragment"
+    android:background="#fff">
+
+    <ImageView
+        android:id="@+id/imgProfileImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/user"/>
+
+    <TextView
+        android:id="@+id/txtProfileName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgProfileImage"
+        android:text="Name"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:background="@drawable/profiletxt"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/txtProfilePhone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfileName"
+        android:text="Mobile Number"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:background="@drawable/profiletxt"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/txtProfileMail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfilePhone"
+        android:text="Email Address"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/profiletxt"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/txtProfileAddress"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfileMail"
+        android:text="Address"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:background="@drawable/profiletxt"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>

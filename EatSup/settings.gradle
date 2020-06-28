@@ -1,0 +1,2 @@
+rootProject.name='EatSup2'
+include ':app'
